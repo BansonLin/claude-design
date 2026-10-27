@@ -9,16 +9,132 @@
   "namespace": "PureSpace",
   "libraries": [],
   "sections": {},
-  "groups": [],
-  "assetGroups": {},
+  "groups": [
+    "CaseImagery"
+  ],
+  "assetGroups": {
+    "CaseImagery": {
+      "name": "CaseImagery",
+      "tile": "m",
+      "order": [
+        "ext01.jpg",
+        "ext02-wide.jpg",
+        "ext03.jpg",
+        "int-1f-l01.jpg",
+        "int-1f-l04.jpg",
+        "int-2f-r04.jpg",
+        "int-3f-f01.jpg",
+        "kv-v1.jpg",
+        "kv-v2.jpg",
+        "kv-v3.jpg",
+        "kv-v4.jpg",
+        "kv-v5.jpg",
+        "kv-v6.jpg",
+        "kv-v7.jpg",
+        "kv-v8.jpg"
+      ],
+      "files": {
+        "ext01.jpg": {
+          "name": "ext01.jpg",
+          "blob": "4afba8830e152e485153ced083dc2841",
+          "size": 52165,
+          "type": "image/jpeg"
+        },
+        "ext02-wide.jpg": {
+          "name": "ext02-wide.jpg",
+          "blob": "8d9d33756889f9b8d770bc74b466df85",
+          "size": 44269,
+          "type": "image/jpeg"
+        },
+        "ext03.jpg": {
+          "name": "ext03.jpg",
+          "blob": "dbdfe45f079d36f77303b54675310393",
+          "size": 38598,
+          "type": "image/jpeg"
+        },
+        "int-1f-l01.jpg": {
+          "name": "int-1f-l01.jpg",
+          "blob": "ee4bb10642d6111f342c466176b4fb7c",
+          "size": 25678,
+          "type": "image/jpeg"
+        },
+        "int-1f-l04.jpg": {
+          "name": "int-1f-l04.jpg",
+          "blob": "6c100c8822394f886e2ea9ae6f47cfdb",
+          "size": 27088,
+          "type": "image/jpeg"
+        },
+        "int-2f-r04.jpg": {
+          "name": "int-2f-r04.jpg",
+          "blob": "87ef0cfd7b8e35c5f7508891408f33da",
+          "size": 60207,
+          "type": "image/jpeg"
+        },
+        "int-3f-f01.jpg": {
+          "name": "int-3f-f01.jpg",
+          "blob": "81fbd39ca2510f48afef532453ca8d8f",
+          "size": 28519,
+          "type": "image/jpeg"
+        },
+        "kv-v1.jpg": {
+          "name": "kv-v1.jpg",
+          "blob": "364eca7683a9b0306373355cf27d85f6",
+          "size": 10860,
+          "type": "image/jpeg"
+        },
+        "kv-v2.jpg": {
+          "name": "kv-v2.jpg",
+          "blob": "6d7755d65c814c636011563245b61804",
+          "size": 10512,
+          "type": "image/jpeg"
+        },
+        "kv-v3.jpg": {
+          "name": "kv-v3.jpg",
+          "blob": "86afc8c9c870edb3312c8a2a2e14b180",
+          "size": 10338,
+          "type": "image/jpeg"
+        },
+        "kv-v4.jpg": {
+          "name": "kv-v4.jpg",
+          "blob": "aac102d85a7d1dfdbb8549726e1b450d",
+          "size": 7586,
+          "type": "image/jpeg"
+        },
+        "kv-v5.jpg": {
+          "name": "kv-v5.jpg",
+          "blob": "8dec7731ed79530bb806a15948699866",
+          "size": 10444,
+          "type": "image/jpeg"
+        },
+        "kv-v6.jpg": {
+          "name": "kv-v6.jpg",
+          "blob": "0db4d12451a1748d145d998576a02ad8",
+          "size": 9384,
+          "type": "image/jpeg"
+        },
+        "kv-v7.jpg": {
+          "name": "kv-v7.jpg",
+          "blob": "e0141ccbfa904df8c427066e688216e0",
+          "size": 10400,
+          "type": "image/jpeg"
+        },
+        "kv-v8.jpg": {
+          "name": "kv-v8.jpg",
+          "blob": "a7770a63f2cf8d4e89949c49be693ef0",
+          "size": 8694,
+          "type": "image/jpeg"
+        }
+      }
+    }
+  },
   "blobs": {},
   "docs": {
     "sections": []
   },
   "lastChange": {
     "by": "Banson",
-    "at": "2026-10-27T17:20:00Z",
+    "at": "2026-10-27T17:45:00Z",
     "via": "GitHub · BansonLin/Pure-space-Branding@fcbe10d",
-    "note": "首次萃取：服務說明網頁 CSS → 37 個 token（三主題）、19 個字型樣式、22 個元件（靜態呈現）＋封面"
+    "note": "補齊 7 個元件（Gallery、Lightbox、PresentHud、UnitBar、VerifyMethod、VisualStrip、AngleTags）＋ CaseImagery 15 張"
   }
 }

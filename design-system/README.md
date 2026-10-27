@@ -49,6 +49,7 @@
 - 照片與渲染圖用 `object-fit: cover` 填滿，圓角 `r-tag`。常用比例：縮圖 16:9、圖庫 4:3、主視覺橫幅 8:3（用 `contain`，不裁切）。
 - 圖說用 `caption`，前面加一條 1.5rem 的 `brass` 細線；渲染圖的圖說一定要寫「3D 示意」。
 - 圖庫 hover 時圖片放大 1.035 倍（0.5s、`cubic-bezier(.2,.7,.2,1)`）。
+- 案例圖放在 CaseImagery 素材群組：只用在案例區（Gallery、Lightbox、VisualStrip），不當璞域自己的品牌形象圖。
 
 ### 動態與狀態
 
@@ -73,11 +74,12 @@
 元件就是樣式表裡的 class：頁面載入 `components/bundle.css`，再依各元件 README 的標記寫 HTML。這套系統沒有 JavaScript 元件。
 
 - **Actions**：Button、Chip、SourceChip
-- **Navigation**：NavBar、ProcessRail
+- **Navigation**：NavBar、ProcessRail、PresentHud
 - **Labels**：Eyebrow、Tag、FactLevel
 - **Layout**：SectionHead、Facts、CrossPanel、Contact、Footer
 - **Content**：ProblemItem、ServiceCard、Phase、MaterialCard、NumberedList、ModeNote
-- **Case**（深藍案例區，外層要有 `.sec-case`）：CaseSpecs、StatTiles、Journey
+- **Case**（深藍案例區，外層要有 `.sec-case`）：CaseSpecs、StatTiles、Journey、UnitBar、VisualStrip、VerifyMethod、AngleTags
+- **Media**：Gallery（在深藍案例區內）、Lightbox
 
 ## 案件品牌
 
@@ -87,6 +89,6 @@
 
 - 字型檔沒有存進系統：兩個字族都由 Google Fonts 託管。
 - 標誌：來源中沒有。
-- 元件為靜態呈現：來源是 Python 產生的靜態頁面，沒有元件庫，所以沒有建立 JS bundle。以下元件尚未收錄：燈箱、圖庫格線、簡報模式控制列、戶型戶數條、核實方法與結果、主視覺比較條、核實角度標籤。
+- 元件為靜態呈現：來源是 Python 產生的靜態頁面，沒有元件庫，所以沒有建立 JS bundle。燈箱、圖庫篩選、簡報模式的互動由來源頁面的內嵌腳本處理，未收錄。
 - 來源中的字面值（非 CSS 變數），依出現頻率命名後收錄：`space-*`、`sec-pad`、`r-tag`、`r-pill`、`r-round`、兩個陰影。
 - 寫死的色值保留在 bundle.css：深色主題的頁尾底 #0D0C0A、深色主按鈕字 #151411，以及燈箱用的 #EEE 與半透明白。
